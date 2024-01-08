@@ -1,0 +1,12 @@
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+}

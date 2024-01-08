@@ -1,0 +1,17 @@
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 180px;
+}
+
+.pEstilizado {
+    color: white;
+}

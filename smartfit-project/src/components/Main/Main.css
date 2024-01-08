@@ -1,0 +1,120 @@
+.containerMain {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.divHorario {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 5px lightgray;
+    font-family: 'gotham-light';
+}
+
+.h1Treino {
+    font-family: 'gotham-light';
+}
+
+.relogio {
+    width: 25px;
+    height: 25px;
+}
+
+.traco {
+    border: 0.5px solid lightgray;
+}
+
+.divRelogio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divPeriodo {
+    display: flex;
+    flex-direction: column;
+}
+
+.divAgenda {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'gotham-light';
+}
+
+.divCheckBox {
+    display: flex;
+    gap: 5px;
+}
+
+.divUnidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divBotoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botaoAmarelo {
+    background-color: #FFB612;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #808080;
+    font-family: 'gotham-bold';
+}
+
+.botaoBranco {
+    background-color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #808080;
+    font-family: 'gotham-bold';
+}
+
+.divAvisos {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divsInternas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divTextos {
+    display: flex;
+    gap: 20px;
+}
+
+.divImagens {
+    display: flex;
+    gap: 15px;
+}
+
+
+.divTextosHorarios {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
