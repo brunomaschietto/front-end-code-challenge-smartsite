@@ -3,8 +3,8 @@ import { academiaProp } from "../interfaces/types";
 
 interface GlobalContextProps {
     academias: academiaProp[];
-    sum: number;
-    setSum: (value: number) => void;
+    sum?: number;
+    setSum: (value: number | undefined) => void;
     currentPage: number;
     setCurrentPage: (page: number) => void;
     totalPages: number;

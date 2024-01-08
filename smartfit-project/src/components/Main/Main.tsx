@@ -14,7 +14,7 @@ import { useContext } from 'react'
 import Card from '../Cards/Card';
 import { academiaProp } from '../../interfaces/types';
 
-const Main = ({ academia }: { academia: academiaProp }) => {
+const Main = () => {
   const context = useContext(GlobalContext);
   const { academias, sum, setSum, currentPage, setCurrentPage, totalPages } = context || { academias: [], sum: 0, setSum: () => {}, currentPage: 1, setCurrentPage: () => {}, totalPages: 1 };
   
